@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 15vh;
+    background-color: #e2a97e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.nav_button{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+#logo{
+    height: 5vh;
+    margin-left: 2rem;
+}
+
+#landing{
+    display: flex;
+    flex-direction: column;
+}
+
+#landing_img{
+    height: 90vh;
+    width: 100vw;
+}
+
+#landing_description{
+    padding-left: 500px;
+    padding-right: 500px;
+    height: 20vw;
+    background-color: #f6edcd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing_footer{
+    padding-left: 500px;
+    padding-right: 500px;
+    height: 20vw;
+    background-color: #f0cf8e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
