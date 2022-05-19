@@ -62,3 +62,26 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+#lista_produse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.produs_image{
+    max-width: 10vw;
+    height: auto;
+}
+
+.produs{
+    overflow: auto;
+    background-color: #e2a97e;
+    max-width: 15vw;
+    margin: 3vw;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
