@@ -12,6 +12,17 @@ nav{
     justify-content: space-between;
 }
 
+footer{
+    padding-left: 500px;
+    padding-right: 500px;
+    height: 20vw;
+    background-color: #f0cf8e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav_elements{
     display: flex;
     flex-direction: row;
@@ -46,17 +57,6 @@ nav{
     padding-right: 500px;
     height: 20vw;
     background-color: #f6edcd;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#landing_footer{
-    padding-left: 500px;
-    padding-right: 500px;
-    height: 20vw;
-    background-color: #f0cf8e;
     display: flex;
     flex-direction: column;
     justify-content: center;
