@@ -12,17 +12,16 @@
         <nav>
             <img id="logo" src="../assets/window_white.png" alt="logo">
             <div class="nav_elements">
-                <a class="nav_button" href="produse.php">Produse</a>
+                <a class="nav_button" href="produse.html">Produse</a>
                 <a class="nav_button" href="contact.html">Contact</a>
                 <a class="nav_button" href="cos.php">Cosul Meu</a>
             </div>
         </nav>
-        <img id="landing_img" src="../assets/landing.jpg" alt="picture">
-        <article id="landing_description">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos unde quo odio vitae obcaecati, recusandae sit sapiente qui nam reprehenderit minus molestiae consequatur magni quam cumque architecto, laudantium iusto similique?</h3>
+        <article id="lista_produse">
+            <?php include "app.php"?>
         </article>
         <footer id="landing_footer">
-            
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos unde quo odio vitae obcaecati, recusandae sit sapiente qui nam reprehenderit minus molestiae consequatur magni quam cumque architecto, laudantium iusto similique?</h3>
         </footer>
     </div>
     <script src="app.js"></script>

@@ -1,28 +1,17 @@
 <?php
+    include "conn.php";
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$databasename = "produse";
+    $query = "SELECT * FROM termopane";
+    $result = mysqli_query($conn, $query);
 
-$conn = new mysqli($servername, $username, $password, $databasename);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$query = "SELECT * FROM `termopane`;";
-$result = $conn->query($query);
-
-if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc())
-    {
-        echo "to be continued";
+    while ($row = mysqli_fetch_assoc($result)){?>
+        <div class="produs">
+        <img class="produs_image" src="../assets/<?php echo $row['image']; ?>" alt="produs">
+            <div>
+                <h2><?php echo $row['name']; ?></h2>
+                <p><?php echo $row['material']; ?></p>
+            </div>
+        </div>
+    <?php
     }
-}else {
-    echo "0 results";
-}
-
-$conn->close();
-
 ?>
