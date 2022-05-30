@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f0cf8e;
+    background-color: #f6edcd;
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -47,6 +47,7 @@ nav{
 }
 
 .form-control{
+    color:white;
     width:280px;
     background:transparent;
     border:none;
@@ -68,6 +69,6 @@ nav{
 }
 
 .form-submit:hover{
-    background-color: #f44336;
-    cursor:pointer;
+    background-color: #f0cf8e;
+    cursor:pointer; 
 }
