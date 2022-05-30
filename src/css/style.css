@@ -12,6 +12,20 @@ nav{
     justify-content: space-between;
 }
 
+body{
+    background-color: #f6edcd;
+}
+
+footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: #f0cf8e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav_elements{
     display: flex;
     flex-direction: row;
@@ -27,8 +41,16 @@ nav{
 }
 
 .sub{
-    background-color: #f0cf8e;
-    border: none;
+    width: 5rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 5px;
+    background-color: #f6edcd;
+}
+
+.sub_button{
+    color: black;
+    text-decoration: none;
 }
 
 .produs_image{
@@ -37,23 +59,13 @@ nav{
 }
 
 .produs{
+    box-shadow: 10px 10px 5px #f0cf8e;    
+    border-radius: 2rem;
     overflow: auto;
     background-color: #e2a97e;
     max-width: 15vw;
     margin: 3vw;
     padding: 5vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer{
-    padding-left: 500px;
-    padding-right: 500px;
-    height: 20vh;
-    width: 100vw;
-    background-color: #f0cf8e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +99,8 @@ footer{
 }
 
 #lista_produse{
+    min-height: 100vh;
+    background-color: #f6edcd;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
